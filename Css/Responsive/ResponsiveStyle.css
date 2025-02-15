@@ -1,0 +1,286 @@
+
+@media screen and (max-width: 1280px) {
+
+    .main-right .Bg {
+        width: 60vh;
+        margin-top: 10vh;
+    }
+
+.main-right .css,
+.main-right .octa {
+  position: absolute;
+  width: 35vh;
+} 
+
+.main-left h1 {
+    font-size: 2.6rem;
+    padding-top: 5vh;
+  }
+  
+  .main-left p {
+    font-weight: 700;
+  }
+
+  .background {
+    background-position: 35% 75%;
+    background-size: 170vh;
+  }
+
+  .whatstoexpext{
+    background-position: 65% 35%;
+    background-size: 90vh;
+  }
+
+  .search input {
+    width: 15rem;
+  }
+
+  .offerupdate h2 {
+    width: 90%;
+    padding-right: 5rem;
+  }
+
+  .ready-to-join h2 {
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 1040px) {
+
+    .main-left h1 {
+        font-size: 2rem;
+        padding-top: 5vh;
+    }
+
+    .main-left p {
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+
+    .background {
+        z-index: 0;
+        background-position: 45% 75%;
+        background-size: 170vh;
+      }
+
+.explore-right h1 {
+    font-size: 1.7rem;
+  }
+
+  .explore-right p{
+    font-size: 0.8rem;
+  }
+
+  .message p {
+    font-size: 0.7rem;
+  }
+
+  .ready-to-join h2 {
+    width: 55%;
+  }
+
+  .offerupdate h2 {
+    width: 80%;
+    padding-right: 5rem;
+    font-size: 1.1rem;
+  }
+
+  .search input {
+    width: 15rem;
+  }
+}
+
+@media (max-width: 768px) {
+    .main {
+      flex-direction: column;
+      padding: 5vh 5vw;
+      gap: 5vh;
+    }
+
+    .main-right{
+        display: none;
+    }
+
+    .background{
+        background-size: 90vh;
+        background-position: 25% 100%;
+    }
+  
+    .main-left{
+        text-align: center;
+    }
+
+    .main-left h1 {
+      font-size: 3.3rem;    
+      width: 100%;
+    }
+    .main-left p {
+      font-size: 1rem;
+    }
+  
+    .main-btn {
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+    }
+  
+    .expect img {
+      width: 80vh;
+      margin: 8vh auto;
+    }
+
+    .expect h4 {
+        color: #F06336;
+        width: 65%;
+        margin: 1vh auto;
+      }
+
+    .whatstoexpext {
+        background-image: none;
+        display: inline;
+    }
+
+    .expectIcon img {
+        width: 15vh;
+      }
+  
+
+
+   .Explore{
+        margin: 10vh auto;
+    }
+
+  .Explore .border {
+    width: 90%;
+    height: 40vh;
+    margin: 10vh 0;
+  }
+
+  .explore-container {
+    display: flex;
+    gap: 2vh;
+    margin: -50vh auto 5vh;
+    width: 80%; 
+    height: 45%;
+  }
+
+    .explore-container .ALGO,
+    .explore-container .BSIT {
+      width: 15vh;
+    }
+
+    .explore-left{
+      margin-top: 2rem;
+    }
+
+    .explore-container .BSIT {
+      margin: -2vh 0 0 10vh;
+      z-index: 0;
+      position: relative;
+    }
+
+  .explore-right {
+    width: 100%;
+    text-align: left;
+    justify-content: center;
+    margin: 1rem auto;
+    height: auto;
+    padding: 0 2rem;
+  }
+
+  .explore-right .btn-learn-more {
+    padding: 1rem 4rem;
+    margin: 1rem auto;
+    border-radius: 1em;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: var(--main-color);
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 6px 6px 12px #c5c5c5;
+    border: transparent;
+  }
+
+  .explore-right h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .explore-right p{
+    width: 80%;
+  }
+
+  .ccsfest img {
+    width: 80vh;
+  }
+
+  .news-galery {
+    display: inline;
+    gap: 2rem;
+  }
+
+  .news-column-right {
+    border-left: none;
+  }
+  
+  .news-column-left {
+
+    border-right: none;
+    padding: 0 2rem;
+  }
+  
+  .news-photo {
+    border-bottom: none;
+  }
+
+  .orangebg {
+    display: inline;
+  }
+
+  .orangebg img {
+    width: 90%;
+    height: auto;
+    margin: 5vh auto;
+  }
+
+  .message h4 {
+    font-size: 1.9rem;
+  }
+
+  .message h1 {
+    font-size: 3.6rem;
+  }
+  
+  .message p {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .btn-message {
+    position: relative;
+    margin: 5vh auto;
+    padding: 0.8rem 2rem;
+    border: transparent;
+    border-radius: 1em;
+    color: var(--main-color);
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 6px 6px 12px #646060;
+    z-index: 10;
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+
+  .ready-to-join h2 {
+    width: 90%;
+    margin: 5vh auto;
+    margin-bottom: 3rem;
+    color: #B6B6B6;
+  }
+
+  .offerupdate{
+    display: none;
+  }
+}
