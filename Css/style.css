@@ -335,10 +335,9 @@ span {
 }
 
 .create-message {
-  margin: 15rem 0;
   background-color: #F06336;
   width: 80%;
-  margin: 5vh auto;
+  margin: 10vh auto;
   border-radius: 1vh;
 }
 
